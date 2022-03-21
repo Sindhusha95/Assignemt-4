@@ -1,0 +1,32 @@
+//How to compare two JSON have the same properties without order?
+
+let student1={ 
+  name: "Sindhusha",
+  Age: 26,
+  city: "Mumbai"
+}
+
+let student2={
+  name: "Anusha",
+  Age: 22,
+  city: "Hyderbad"
+}
+
+student1=student2
+
+console.log(student1)
+console.log(student2)
+console.log(student1.name==student2.name)
+console.log(student1.Age==student2.Age)
+console.log(student1.city==student2.city)
+console.log(student1.city==student2.name)
+
+
+Output:
+
+{ city: 'Hyderbad', name: 'Anusha', Age: 22 }
+{ city: 'Hyderbad', name: 'Anusha', Age: 22 }
+true
+true
+true
+false
