@@ -1,0 +1,1020 @@
+//Use the same rest countries and print all countries name, region, sub region and population
+
+let request= new XMLHttpRequest();
+request.open ('GET', "https://restcountries.com/v2/all" );
+request.send ();
+
+request.onload = () => {
+
+let responseContent=JSON.parse(request.response)
+responseContent.map((x) => {
+  console.log(x.name)
+  console.log(x.region)
+  console.log(x.subregion)
+  console.log(x.population)
+
+})
+}
+
+OUTPUT:
+
+Afghanistan
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 40218234
+Script.js:9 Åland Islands
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 28875
+Script.js:9 Albania
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 2837743
+Script.js:9 Algeria
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 44700000
+Script.js:9 American Samoa
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 55197
+Script.js:9 Andorra
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 77265
+Script.js:9 Angola
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 32866268
+Script.js:9 Anguilla
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 13452
+Script.js:9 Antarctica
+Script.js:10 Polar
+Script.js:11 Antarctica
+Script.js:12 1000
+Script.js:9 Antigua and Barbuda
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 97928
+Script.js:9 Argentina
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 45376763
+Script.js:9 Armenia
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 2963234
+Script.js:9 Aruba
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 106766
+Script.js:9 Australia
+Script.js:10 Oceania
+Script.js:11 Australia and New Zealand
+Script.js:12 25687041
+Script.js:9 Austria
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 8917205
+Script.js:9 Azerbaijan
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 10110116
+Script.js:9 Bahamas
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 393248
+Script.js:9 Bahrain
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 1701583
+Script.js:9 Bangladesh
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 164689383
+Script.js:9 Barbados
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 287371
+Script.js:9 Belarus
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 9398861
+Script.js:9 Belgium
+Script.js:10 Europe
+Script.js:11 Western Europe
+Script.js:12 11555997
+Script.js:9 Belize
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 397621
+Script.js:9 Benin
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 12123198
+Script.js:9 Bermuda
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 63903
+Script.js:9 Bhutan
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 771612
+Script.js:9 Bolivia (Plurinational State of)
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 11673029
+Script.js:9 Bonaire, Sint Eustatius and Saba
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 17408
+Script.js:9 Bosnia and Herzegovina
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 3280815
+Script.js:9 Botswana
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 2351625
+Script.js:9 Bouvet Island
+Script.js:10 Antarctic Ocean
+Script.js:11 South Antarctic Ocean
+Script.js:12 0
+Script.js:9 Brazil
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 212559409
+Script.js:9 British Indian Ocean Territory
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 3000
+Script.js:9 United States Minor Outlying Islands
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 300
+Script.js:9 Virgin Islands (British)
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 30237
+Script.js:9 Virgin Islands (U.S.)
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 106290
+Script.js:9 Brunei Darussalam
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 437483
+Script.js:9 Bulgaria
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 6927288
+Script.js:9 Burkina Faso
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 20903278
+Script.js:9 Burundi
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 11890781
+Script.js:9 Cambodia
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 16718971
+Script.js:9 Cameroon
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 26545864
+Script.js:9 Canada
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 38005238
+Script.js:9 Cabo Verde
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 555988
+Script.js:9 Cayman Islands
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 65720
+Script.js:9 Central African Republic
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 4829764
+Script.js:9 Chad
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 16425859
+Script.js:9 Chile
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 19116209
+Script.js:9 China
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 1402112000
+Script.js:9 Christmas Island
+Script.js:10 Oceania
+Script.js:11 Australia and New Zealand
+Script.js:12 2072
+Script.js:9 Cocos (Keeling) Islands
+Script.js:10 Oceania
+Script.js:11 Australia and New Zealand
+Script.js:12 550
+Script.js:9 Colombia
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 50882884
+Script.js:9 Comoros
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 869595
+Script.js:9 Congo
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 5518092
+Script.js:9 Congo (Democratic Republic of the)
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 89561404
+Script.js:9 Cook Islands
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 18100
+Script.js:9 Costa Rica
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 5094114
+Script.js:9 Croatia
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 4047200
+Script.js:9 Cuba
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 11326616
+Script.js:9 Curaçao
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 155014
+Script.js:9 Cyprus
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 1207361
+Script.js:9 Czech Republic
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 10698896
+Script.js:9 Denmark
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 5831404
+Script.js:9 Djibouti
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 988002
+Script.js:9 Dominica
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 71991
+Script.js:9 Dominican Republic
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 10847904
+Script.js:9 Ecuador
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 17643060
+Script.js:9 Egypt
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 102334403
+Script.js:9 El Salvador
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 6486201
+Script.js:9 Equatorial Guinea
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 1402985
+Script.js:9 Eritrea
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 5352000
+Script.js:9 Estonia
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 1331057
+Script.js:9 Ethiopia
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 114963583
+Script.js:9 Falkland Islands (Malvinas)
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 2563
+Script.js:9 Faroe Islands
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 48865
+Script.js:9 Fiji
+Script.js:10 Oceania
+Script.js:11 Melanesia
+Script.js:12 896444
+Script.js:9 Finland
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 5530719
+Script.js:9 France
+Script.js:10 Europe
+Script.js:11 Western Europe
+Script.js:12 67391582
+Script.js:9 French Guiana
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 254541
+Script.js:9 French Polynesia
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 280904
+Script.js:9 French Southern Territories
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 140
+Script.js:9 Gabon
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 2225728
+Script.js:9 Gambia
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 2416664
+Script.js:9 Georgia
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 3714000
+Script.js:9 Germany
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 83240525
+Script.js:9 Ghana
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 31072945
+Script.js:9 Gibraltar
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 33691
+Script.js:9 Greece
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 10715549
+Script.js:9 Greenland
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 56367
+Script.js:9 Grenada
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 112519
+Script.js:9 Guadeloupe
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 400132
+Script.js:9 Guam
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 168783
+Script.js:9 Guatemala
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 16858333
+Script.js:9 Guernsey
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 62999
+Script.js:9 Guinea
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 13132792
+Script.js:9 Guinea-Bissau
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 1967998
+Script.js:9 Guyana
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 786559
+Script.js:9 Haiti
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 11402533
+Script.js:9 Heard Island and McDonald Islands
+Script.js:10 Antarctic
+Script.js:11 Antarctic
+Script.js:12 0
+Script.js:9 Vatican City
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 451
+Script.js:9 Honduras
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 9904608
+Script.js:9 Hungary
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 9749763
+Script.js:9 Hong Kong
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 7481800
+Script.js:9 Iceland
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 366425
+Script.js:9 India
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 1380004385
+Script.js:9 Indonesia
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 273523621
+Script.js:9 Ivory Coast
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 26378275
+Script.js:9 Iran (Islamic Republic of)
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 83992953
+Script.js:9 Iraq
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 40222503
+Script.js:9 Ireland
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 4994724
+Script.js:9 Isle of Man
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 85032
+Script.js:9 Israel
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 9216900
+Script.js:9 Italy
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 59554023
+Script.js:9 Jamaica
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 2961161
+Script.js:9 Japan
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 125836021
+Script.js:9 Jersey
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 100800
+Script.js:9 Jordan
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 10203140
+Script.js:9 Kazakhstan
+Script.js:10 Asia
+Script.js:11 Central Asia
+Script.js:12 18754440
+Script.js:9 Kenya
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 53771300
+Script.js:9 Kiribati
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 119446
+Script.js:9 Kuwait
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 4270563
+Script.js:9 Kyrgyzstan
+Script.js:10 Asia
+Script.js:11 Central Asia
+Script.js:12 6591600
+Script.js:9 Lao People's Democratic Republic
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 7275556
+Script.js:9 Latvia
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 1901548
+Script.js:9 Lebanon
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 6825442
+Script.js:9 Lesotho
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 2142252
+Script.js:9 Liberia
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 5057677
+Script.js:9 Libya
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 6871287
+Script.js:9 Liechtenstein
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 38137
+Script.js:9 Lithuania
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 2794700
+Script.js:9 Luxembourg
+Script.js:10 Europe
+Script.js:11 Western Europe
+Script.js:12 632275
+Script.js:9 Macao
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 649342
+Script.js:9 North Macedonia
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 2083380
+Script.js:9 Madagascar
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 27691019
+Script.js:9 Malawi
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 19129955
+Script.js:9 Malaysia
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 32365998
+Script.js:9 Maldives
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 540542
+Script.js:9 Mali
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 20250834
+Script.js:9 Malta
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 525285
+Script.js:9 Marshall Islands
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 59194
+Script.js:9 Martinique
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 378243
+Script.js:9 Mauritania
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 4649660
+Script.js:9 Mauritius
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 1265740
+Script.js:9 Mayotte
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 226915
+Script.js:9 Mexico
+Script.js:10 Americas
+Script.js:11 North America
+Script.js:12 128932753
+Script.js:9 Micronesia (Federated States of)
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 115021
+Script.js:9 Moldova (Republic of)
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 2617820
+Script.js:9 Monaco
+Script.js:10 Europe
+Script.js:11 Western Europe
+Script.js:12 39244
+Script.js:9 Mongolia
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 3278292
+Script.js:9 Montenegro
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 621718
+Script.js:9 Montserrat
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 4922
+Script.js:9 Morocco
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 36910558
+Script.js:9 Mozambique
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 31255435
+Script.js:9 Myanmar
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 54409794
+Script.js:9 Namibia
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 2540916
+Script.js:9 Nauru
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 10834
+Script.js:9 Nepal
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 29136808
+Script.js:9 Netherlands
+Script.js:10 Europe
+Script.js:11 Western Europe
+Script.js:12 17441139
+Script.js:9 New Caledonia
+Script.js:10 Oceania
+Script.js:11 Melanesia
+Script.js:12 271960
+Script.js:9 New Zealand
+Script.js:10 Oceania
+Script.js:11 Australia and New Zealand
+Script.js:12 5084300
+Script.js:9 Nicaragua
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 6624554
+Script.js:9 Niger
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 24206636
+Script.js:9 Nigeria
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 206139587
+Script.js:9 Niue
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 1470
+Script.js:9 Norfolk Island
+Script.js:10 Oceania
+Script.js:11 Australia and New Zealand
+Script.js:12 2302
+Script.js:9 Korea (Democratic People's Republic of)
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 25778815
+Script.js:9 Northern Mariana Islands
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 57557
+Script.js:9 Norway
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 5379475
+Script.js:9 Oman
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 5106622
+Script.js:9 Pakistan
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 220892331
+Script.js:9 Palau
+Script.js:10 Oceania
+Script.js:11 Micronesia
+Script.js:12 18092
+Script.js:9 Palestine, State of
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 4803269
+Script.js:9 Panama
+Script.js:10 Americas
+Script.js:11 Central America
+Script.js:12 4314768
+Script.js:9 Papua New Guinea
+Script.js:10 Oceania
+Script.js:11 Melanesia
+Script.js:12 8947027
+Script.js:9 Paraguay
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 7132530
+Script.js:9 Peru
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 32971846
+Script.js:9 Philippines
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 109581085
+Script.js:9 Pitcairn
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 56
+Script.js:9 Poland
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 37950802
+Script.js:9 Portugal
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 10305564
+Script.js:9 Puerto Rico
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 3194034
+Script.js:9 Qatar
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 2881060
+Script.js:9 Republic of Kosovo
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 1775378
+Script.js:9 Réunion
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 840974
+Script.js:9 Romania
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 19286123
+Script.js:9 Russian Federation
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 144104080
+Script.js:9 Rwanda
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 12952209
+Script.js:9 Saint Barthélemy
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 9417
+Script.js:9 Saint Helena, Ascension and Tristan da Cunha
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 4255
+Script.js:9 Saint Kitts and Nevis
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 53192
+Script.js:9 Saint Lucia
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 183629
+Script.js:9 Saint Martin (French part)
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 38659
+Script.js:9 Saint Pierre and Miquelon
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 6069
+Script.js:9 Saint Vincent and the Grenadines
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 110947
+Script.js:9 Samoa
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 198410
+Script.js:9 San Marino
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 33938
+Script.js:9 Sao Tome and Principe
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 219161
+Script.js:9 Saudi Arabia
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 34813867
+Script.js:9 Senegal
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 16743930
+Script.js:9 Serbia
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 6908224
+Script.js:9 Seychelles
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 98462
+Script.js:9 Sierra Leone
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 7976985
+Script.js:9 Singapore
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 5685807
+Script.js:9 Sint Maarten (Dutch part)
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 40812
+Script.js:9 Slovakia
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 5458827
+Script.js:9 Slovenia
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 2100126
+Script.js:9 Solomon Islands
+Script.js:10 Oceania
+Script.js:11 Melanesia
+Script.js:12 686878
+Script.js:9 Somalia
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 15893219
+Script.js:9 South Africa
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 59308690
+Script.js:9 South Georgia and the South Sandwich Islands
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 30
+Script.js:9 Korea (Republic of)
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 51780579
+Script.js:9 Spain
+Script.js:10 Europe
+Script.js:11 Southern Europe
+Script.js:12 47351567
+Script.js:9 Sri Lanka
+Script.js:10 Asia
+Script.js:11 Southern Asia
+Script.js:12 21919000
+Script.js:9 Sudan
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 43849269
+Script.js:9 South Sudan
+Script.js:10 Africa
+Script.js:11 Middle Africa
+Script.js:12 11193729
+Script.js:9 Suriname
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 586634
+Script.js:9 Svalbard and Jan Mayen
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 2562
+Script.js:9 Swaziland
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 1160164
+Script.js:9 Sweden
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 10353442
+Script.js:9 Switzerland
+Script.js:10 Europe
+Script.js:11 Central Europe
+Script.js:12 8636896
+Script.js:9 Syrian Arab Republic
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 17500657
+Script.js:9 Taiwan
+Script.js:10 Asia
+Script.js:11 Eastern Asia
+Script.js:12 23503349
+Script.js:9 Tajikistan
+Script.js:10 Asia
+Script.js:11 Central Asia
+Script.js:12 9537642
+Script.js:9 Tanzania, United Republic of
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 59734213
+Script.js:9 Thailand
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 69799978
+Script.js:9 Timor-Leste
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 1318442
+Script.js:9 Togo
+Script.js:10 Africa
+Script.js:11 Western Africa
+Script.js:12 8278737
+Script.js:9 Tokelau
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 1411
+Script.js:9 Tonga
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 105697
+Script.js:9 Trinidad and Tobago
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 1399491
+Script.js:9 Tunisia
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 11818618
+Script.js:9 Turkey
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 84339067
+Script.js:9 Turkmenistan
+Script.js:10 Asia
+Script.js:11 Central Asia
+Script.js:12 6031187
+Script.js:9 Turks and Caicos Islands
+Script.js:10 Americas
+Script.js:11 Caribbean
+Script.js:12 38718
+Script.js:9 Tuvalu
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 11792
+Script.js:9 Uganda
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 45741000
+Script.js:9 Ukraine
+Script.js:10 Europe
+Script.js:11 Eastern Europe
+Script.js:12 44134693
+Script.js:9 United Arab Emirates
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 9890400
+Script.js:9 United Kingdom of Great Britain and Northern Ireland
+Script.js:10 Europe
+Script.js:11 Northern Europe
+Script.js:12 67215293
+Script.js:9 United States of America
+Script.js:10 Americas
+Script.js:11 Northern America
+Script.js:12 329484123
+Script.js:9 Uruguay
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 3473727
+Script.js:9 Uzbekistan
+Script.js:10 Asia
+Script.js:11 Central Asia
+Script.js:12 34232050
+Script.js:9 Vanuatu
+Script.js:10 Oceania
+Script.js:11 Melanesia
+Script.js:12 307150
+Script.js:9 Venezuela (Bolivarian Republic of)
+Script.js:10 Americas
+Script.js:11 South America
+Script.js:12 28435943
+Script.js:9 Vietnam
+Script.js:10 Asia
+Script.js:11 South-Eastern Asia
+Script.js:12 97338583
+Script.js:9 Wallis and Futuna
+Script.js:10 Oceania
+Script.js:11 Polynesia
+Script.js:12 11750
+Script.js:9 Western Sahara
+Script.js:10 Africa
+Script.js:11 Northern Africa
+Script.js:12 510713
+Script.js:9 Yemen
+Script.js:10 Asia
+Script.js:11 Western Asia
+Script.js:12 29825968
+Script.js:9 Zambia
+Script.js:10 Africa
+Script.js:11 Eastern Africa
+Script.js:12 18383956
+Script.js:9 Zimbabwe
+Script.js:10 Africa
+Script.js:11 Southern Africa
+Script.js:12 14862927
