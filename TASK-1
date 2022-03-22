@@ -1,0 +1,135 @@
+// TASK-1
+//1. Declare four variables without assigning values and print them in console.
+
+// var a
+// var b
+// var c 
+// var d 
+// console.log(a,b,c,d)
+
+//Output:
+//undefined undefined undefined undefined
+
+//2. How to get value of the variable myvar as output
+
+// var myvar= 1;
+// console.log("myvar"+ "="+myvar);
+
+// //OUTPUT:
+
+// myvar=1
+
+//3.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+//   var firstName= "Sindhusha";
+//   var lastName="Wupadrasta";
+//   var MaritualStatus="Married";
+//   var Country="India";
+//   var Age=27
+
+//   console.log(firstName)
+//   console.log(lastName)
+//   console.log(MaritualStatus)
+//   console.log(Country)
+//   console.log(Age)
+
+//  //OUTPUT:
+
+//  Sindhusha
+//  Wupadrasta
+//  Married
+//  India
+//  27
+
+//4.Declare variables to store your first name, last name, marital status, country and age in a single line
+
+//  var firstName= "Sindhusha",lastName="Wupadrasta", MaritualStatus="Married", Country="India", Age=27
+
+//  console.log(firstName + " " + lastName + " , " + MaritualStatus + " , " + Country + " , " + Age)
+
+
+//OUTPUT:
+
+//  Sindhusha Wupadrasta , Married , India , 27
+
+//5.  Declare variables and assign string, boolean, undefined and null data types
+
+// let a=" I am 25 years old."
+// let b=" You are 30 years old. "
+// let c=" You are 30 years old. "
+// let d
+// let e= null;
+// let f=(a==b);
+// let g=(b==c)
+
+// console.log(typeof a)
+// console.log(typeof b)
+// console.log(typeof c)
+// console.log(typeof d)
+// console.log(typeof e)
+// console.log(typeof f)
+// console.log(typeof g)
+
+//OUTPUT:
+
+// string
+// string
+// string
+// undefined
+// object
+// boolean
+// boolean
+
+//6. Convert the string to integer
+
+// let string=parseInt (10,"20"); //Conversion using parseInt
+// console.log(string)
+//console.log(typeof string)
+
+//OUTPUT:
+//20
+//number
+
+// let string=Number("10","20",30)  // Converstion using Number()
+// console.log(typeof string)
+// console.log(string)
+
+//OUTPUT:
+//number
+// 10
+
+// let a=+"20";   //Conversion using plus Sign (+)
+// let b=30;
+// let c=(a+b)
+// console.log(c)
+// console.log(typeof a)
+
+//OUTPUT:
+// 50
+// number
+
+// 7. Write 6 statement which provide truthy & falsey values.
+
+// let x=10, y=20, z=10, a="GUVI", b="GUVI", c="ZEN",
+// S=(x==y)
+// I=(x==z)
+// N=(a==b)
+// D=(a==c)
+// H=(a==x)
+// U=(z==y)
+
+// console.log(S)
+// console.log(I)
+// console.log(N)
+// console.log(D)
+// console.log(H)
+// console.log(U)
+
+//OUTPUT:
+
+// false
+// true
+// true
+// false
+// false
+// false
