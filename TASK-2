@@ -145,4 +145,173 @@
 // Rate of Intrest = 10
 // Simple Intrest = 5000
 
+//11. Calculate area of an equilateral triangle
+
+// let a=20
+// let area= 1.732/4 * a**2
+// console.log("Side of an equilateral trainge= " + a)
+// console.log("Area of Equilateral Traingle = " + area)
+
+//OUTPUT:
+
+// Side of an equilateral trainge= 20
+// Area of Equilateral Traingle = 173.2
+
+//12.Area Of Isosceles Triangle
+
+// let a = 50;
+// let b = 40;
+// let area= 1/2 *b* Math.sqrt(a**2-(b**2/4))
+
+// console.log("Base of a triangle = " + b)
+// console.log("Sides of a  triangle = " + a)
+// console.log("Area of Isoceles traingle = " + area)
+
+// //OUTPUT:
+
+// Base of a triangle = 40
+// Sides of a  triangle = 50
+// Area of Isoceles traingle = 916.515138991168
+
+//13.Volume Of Sphere
+
+// let Radius= 25;
+// let Volume= ((4/3) * Math.PI * Math.pow(Radius,3))
+// console.log("Radius of Sphere = " + Radius)
+// console.log("Volume of Sphere = " + Volume.toFixed(2))
+
+// //OUTPUT:
+
+// Radius of Sphere = 25
+// Volume of Sphere = 65449.85
+
+
+//14. Volume of Prism
+
+// let b= 16;
+// let h= 20;
+// let volume= (b*h)
+// console.log("Area base of a Prism = " + b)
+// console.log("Height of Prism = " + h)
+// console.log("Volume of Prisim = " + volume)
+
+// OUTPUT:
+
+// Area base of a Prism = 16
+// Height of Prism = 20
+// Volume of Prisim = 320
+
+//15/ Area of a Triangle.
+
+// let base= 40;
+// let height=50;
+// let area= 1/2*(base*height)
+// console.log("Base of trinagle = " + base)
+// console.log("Height of trinagle = " + height)
+// console.log("Area of the triangle = " + area)
+
+// OUTPUT:
+
+// Base of trinagle = 40
+// Height of trinagle = 50
+// Area of the triangle = 1000
+
+//16.Give the Actual cost and Sold cost, Calculate Discount Of Product
+
+// let actualCost= 500;
+// let soldCost= 450;
+// let Discount= ((actualCost-soldCost)/actualCost)*100
+// console.log("Actual cost of the product = " + actualCost)
+// console.log("Sold Cost of the product = " + soldCost)
+// console.log("Discount percentage on the product = " + Discount + "%")
+
+// OUTPUT:
+
+// Actual cost of the product = 500
+// Sold Cost of the product = 450
+// Discount percentage on the product = 10%
+
+//17.Given their radius of a circle and find its diameter, circumference and area.
+
+// let radius= 25;
+// let area= (Math.PI * (radius ** 2))
+// let diameter= (2 * radius)
+// let circumference= (2 * Math.PI ) * radius
+// console.log("Radius of a circle = " + radius)
+// console.log("Area of the Circle = " + area)
+// console.log("Diameter of the Circle = "+ diameter)
+// console.log("Circumference of the Circel = " + circumference)
+
+// OUTPUT:
+
+// Radius of a circle = 25
+// Area of the Circle = 1963.4954084936207
+// Diameter of the Circle = 50
+// Circumference of the Circel = 157.07963267948966
+
+//18. Given two numbers and perform all arithmetic operations.
+
+// let a=20;
+// let b=5;
+// let sum= a+b;
+// let sub= a-b;
+// let mul= a*b;
+// let div= a/b;
+// let percentage= b%a;
+// let pow= a ** b;
+// console.log("Sum of numbers = " + sum)
+// console.log("Sub of numbers= " + sub)
+// console.log("Mul of numbers= " + mul)
+// console.log("Divison of numbers= " + div)
+// console.log("Percentage of numbers = " +percentage)
+// console.log("Power of number= " + pow)
+
+// OUTPUT:
+
+// Sum of numbers = 25
+// Sub of numbers= 15
+// Mul of numbers= 100
+// Divison of numbers= 4
+// Percentage of numbers = 5
+// Power of number= 3200000
+
+
+//19. Display the asterisk pattern pattern as shown below(No loop needed): 
+
+// let i=0;
+// while(i<5){
+// console.log(" ***** ")
+// i++
+// }
+
+// OUTPUT:
+//  ***** 
+//  ***** 
+//  ***** 
+//  ***** 
+//  ***** 
+
+//20.Calculate electricity bill?
+//For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+
+// let cc=100; 
+// let hours=24;
+// let month=30;
+// let hrPermonth = hours*month
+// let watts=hrPermonth*cc
+// let Units= (watts/1000)
+// let perUnit=10;
+// let electricityBill= (Units*perUnit)
+// console.log("Electricity consumed by consumer in a month = " + watts + "watts")
+// console.log("Number of units of electrity consumed by consumer in a month = " + Units + "Units")
+// console.log("Electricity bill of consumer per month = " + electricityBill + "Rupees")
+
+// OUTPUT:
+
+// Electricity consumed by consumer in a month = 72000watts
+// Number of units of electrity consumed by consumer in a mont = 72Units
+// Electricity bill of consumer per month = 720Rupees
+
+//21. Program To Calculate CGPA
+
 
