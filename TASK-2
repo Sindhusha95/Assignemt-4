@@ -1,0 +1,148 @@
+// TASK-2
+
+//1. Square of a number
+
+// let x=25;
+// let squareNumber =(x*x)
+// console.log("Square of the given number is:"+ " "+ squareNumber)
+
+//OUTPUT: 
+//Square of the given number is: 625
+
+//2.Swapping 2 numbers
+
+// let a=10;
+// let b=35;
+// c=a;
+// d=b;
+// console.log("Given 1st Variable:" + a);
+// console.log("Given 2nd Variable:" + b)
+// console.log("Swapped Variable a:"  + c)
+// console.log("Swapped Variable b:" + d)
+
+//OUTPUT: 
+// Given 1st Variable:10
+// Given 2nd Variable:35
+// 20 Swapped Variable a:10
+// Swapped Variable b:35
+
+//3.Addition of 3 numbers
+
+// let a=20;
+// let b=40;
+// let c=60;
+// let d= (a+b+c);
+// console.log("Total= " + d)
+
+// //OUTPUT: 
+
+// Total= 120
+
+//4. Celsius to Fahrenheit conversion
+
+// let celsius= 33;
+// let fahrenheit= [(celsius* 9/5)+32]
+
+// console.log("Celsius = " + celsius)
+// console.log("celsius to fahrenheit of temperature= " + fahrenheit)
+
+// //OUTPUT:
+
+//Celsius = 33
+// celsius to fahrenheit of temperature= 91.4
+
+//5.Meter to miles conversion
+
+// let Meters= 1083;
+// let Miles=(Meters*0.000621)
+
+//console.log("Meters: " + Meters)
+// console.log("Converted value of meter to miles= " +Miles)
+
+//OUTPUT:
+//Meters=1083
+//Converted value of meter to miles= 0.672543
+
+//6.Pounds to kg
+
+// let pounds = 120;
+// let kg= (pounds/2.2046)
+
+// console.log("Pounds= " + pounds)
+// console.log("Converted value of pound to kg= " + kg)
+
+//OUTPUT:
+
+//Pounds= 120
+//Converted value of pound to kg= 54.431642928422384
+
+//7.Calculate Batting Average
+
+// let runs= 3350;
+// let outs= 40;
+// let average= (runs/outs);
+// console.log("No of runs by Batsman=" + runs)
+// console.log("No of outs by Batsman=" + outs)
+// console.log("Batting Average of Batsman= " + average)
+
+//OUTPUT:
+
+//No of runs by Batsman=2350
+//No of outs by Batsman=40
+// Batting Average of Batsman= 58.75
+
+//8.Calculate five test scores and print their average
+
+// let t1= 340;
+// let t2=560;
+// let t3= 630;
+// let t4= 325;
+// let t5= 700;
+// let total= (t1+t2+t3+t4+t5)
+// let average= (total/5)
+// console.log("Test1 Score = " + t1 + "," + "Test2 Score = " + t2 + "," + "Test3 Score = " + t3 + "," + "Test4 Score = " + t4 + "," + "Test5 Score = " + t5)
+// console.log("Total Score of 5 Matches = " + total)
+// console.log("Average of five Test Match Scores= " + average )
+
+// //OUTPUT:
+
+// Test1 Score = 340,Test2 Score = 560,Test3 Score = 630,Test4 Score = 325,Test5 Score = 700
+// total Score of 5 Matches = 2555
+// Average of five Test Match Scores= 511
+
+//9. Power of any number x^y.
+
+
+// let x=8;
+// let y=5;
+// let z= (x**y)  //we can also use Math.pow(x,y) which will give same answer
+
+// console.log("Number = " + x)
+// console.log("Power = " + y)
+// console.log("x^y = " + z)
+
+//OUTPUT: 
+
+// Number = 8
+// Power = 5
+// x^y = 32768
+
+//10. Calculate Simple Interest
+
+// let P= 25000;
+// let T=2;
+// let R= 10;
+// let SI=(P*T*R)/100
+// console.log("Principal Amount = " + P)
+// console.log("Time for Repayment = " + T + "years")
+// console.log("Rate of Intrest = " + R)
+// console.log("Simple Intrest = " + SI)
+
+// //OUTPUT: 
+
+// Principal Amount = 25000
+// Time for Repayment = 2years
+// Rate of Intrest = 10
+// Simple Intrest = 5000
+
+
