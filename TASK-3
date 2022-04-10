@@ -49,7 +49,7 @@
 // let friends= ["Mari", "MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chadran"]
 // function dataHandling(input){
 //     for (var i = 0; i < input.length; i++) {
-//    friends[3]= "Mari";
+//    friends[0]= "Munnabai";
 //     console.log(friends)
 //     }
 //     }
@@ -57,14 +57,59 @@
 
 //     OUTPUT:
 
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
-// [ 'Mari', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'Munnabai', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'Munnabai', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'Munnabai', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'MMunnabai', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'Munnabai', 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
+// [ 'Munnabai, 'MaryJane', 'CaptianAmerica', 'Mari', 'Jeff', 'AAK chadran' ]
 
 //4.Starting from the friends variable below, Loop and Print the names till you meet CaptianAmerica.
+
+// const friends = ["Mari", "MaryJane","CaptianAmerica","Munnabai","Jeff","AAk Chandran"];
+// const size=3;
+// function dataHandling(input){
+//   for(var i=0;i<input.length;i++){
+//     let array=friends.slice(0,size)
+//     console.log(array)
+//   }
+// }  
+// dataHandling(friends);
+
+// //OUTPUT:
+
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+// [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+
+//6.We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
+
+// var friends1 = ["Mari", "MaryJane","CaptianAmerica","Munnabai","Jeff","AAk Chandran"];
+// var friends2=["Gabbar", "Rajinikanth","Mass","Spiderman","Jeff","ET"];
+
+// function dataHandling(input){
+//   let friendsList=[...friends1, ...friends2]
+//   friendsList.sort()
+//   console.log(friendsList)
+// }
+// dataHandling(friends1,friends2)
+
+//OUTPUT:
+
+// [
+//   'AAk Chandran', 'CaptianAmerica',
+//   'ET',           'Gabbar',
+//   'Jeff',         'Jeff',
+//   'Mari',         'MaryJane',
+//   'Mass',         'Munnabai',
+//   'Rajinikanth',  'Spiderman'
+// ]
+
+
+
 
 
     
