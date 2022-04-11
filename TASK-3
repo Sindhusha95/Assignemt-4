@@ -76,7 +76,7 @@
 // }  
 // dataHandling(friends);
 
-// //OUTPUT:
+//OUTPUT:
 
 // [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
 // [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
@@ -84,6 +84,24 @@
 // [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
 // [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
 // [ 'Mari', 'MaryJane', 'CaptianAmerica' ]
+
+//5. Find the person is ur friend or not.
+
+ // const friends = [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran" ]; 
+  // function dataHandling(input, name){ let isFriend = false;
+  //   for (var i = 0; i < input.length; i++) { 
+  //     if(input[i]==name){
+  //      isFriend = true;
+  //       return isFriend;
+  //      } 
+  //     } 
+  //      return isFriend;
+  //      }
+  //       let found = dataHandling(friends,"Jeff");
+  // console.log("Is a Friend "+" " + found); 
+
+  // // OUTPUT:
+  // Is a Friend  true
 
 //6.We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
 
