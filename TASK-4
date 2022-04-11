@@ -1,0 +1,75 @@
+//1.Get the first item, the middle item and the last item of the array
+
+// let friends = [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff"]; 
+// console.log("First item of the array"+" "+friends[0])
+// console.log("Middle item of the array"+ " " + friends[2])
+// console.log("Last item of the array"+ " " + friends[friends.length-1])
+ 
+//2. Add your name to the end of the friends array, and add another name to beginning.
+
+//   let friends = [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran" ]; 
+//   friends.push("Sindhusha")           //last item in array
+//   friends.unshift("Anusha")           //first item in array
+//   console.log(friends)
+
+//   OUTPUT:
+
+// ['Anusha', 'Mari', 'MaryJane', 'CaptianAmerica', 'Munnabai', 'Jeff', 'AAK chandran', 'Sindhusha']
+// 0: "Anusha"
+// 1: "Mari"
+// 2: "MaryJane"
+// 3: "CaptianAmerica"
+// 4: "Munnabai"
+// 5: "Jeff"
+// 6: "AAK chandran"
+// 7: "Sindhusha"
+// length: 8
+
+//3.Add Mr or Ms to the names in the friends array.
+// var friends = [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran" ]; 
+// var newFriends = [];
+// for (var i = 0; i < friends.length; i++) {
+//   newFriends.push('Mr. ' + friends[i]);
+// }
+// console.log(newFriends)
+
+// OUTPUT:
+// ['Mr. Mari', 'Mr. MaryJane', 'Mr. CaptianAmerica', 'Mr. Munnabai', 'Mr. Jeff', 'Mr. AAK chandran']
+
+//4. Concat all the names the friends array and return as comma “,” seperated string.
+
+// let friends = [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran" ]; 
+// let newFriends=friends.join(",")
+// console.log(newFriends)
+
+// OUTPUT:
+// Mari,MaryJane,CaptianAmerica,Munnabai,Jeff,AAK chandran
+
+
+//6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
+
+// let friends= [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran"]; 
+// var arrayLength=friends.length;
+// console.log("Number of friends in friends array = " + " " + arrayLength)
+// var total = 0;
+// for(var i = 0; i < friends.length; i++){
+//     total+=friends[i].length;
+//     console.log("Length of each Friend Name individually = " + " " + friends[i].length)
+// }
+// var average = total/friends.length;
+// console.log("Total length of friends names in an array = " + " " + total)
+// console.log("All friends names average = " + " " + average) 
+
+// OUTPUT:
+
+// Number of friends in friends array =  6
+// Length of each Friend Name individually =  4
+// Length of each Friend Name individually =  8
+// Length of each Friend Name individually =  14
+// Length of each Friend Name individually =  8
+// Length of each Friend Name individually =  4
+// Length of each Friend Name individually =  12
+// Total length of friends names in an array =  50
+// All friends names average =  8.333333333333334
+
+//7. Find the names and return the list starting with letter M.
