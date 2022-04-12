@@ -73,3 +73,22 @@
 // All friends names average =  8.333333333333334
 
 //7. Find the names and return the list starting with letter M.
+
+
+
+//8. Find the name with max characters and return the name.
+
+// let friends= [ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran"]; 
+// var lgth=0;
+// var longest;
+
+// for(var i=0;i<friends.length;i++){
+//   if(friends[i].length>lgth){
+//     var lgth=friends[i].length;
+//     longest=friends[i];
+//   }
+// }
+// console.log("Name with Max Characters in the array is "+ longest + "Its length is  " + longest.length)
+
+// OUTPUT:
+// Name with Max Characters in the array is CaptianAmericaIts length is  14
