@@ -44,20 +44,14 @@
 // OUTPUT:
 // Mari,MaryJane,CaptianAmerica,Munnabai,Jeff,AAK chandran
 
-//5. 5. Find the friends names who has letter ‘a’ and return the list.
-// const friends = [
-//     "Mari",
-//     "MaryJane",
-//     "CaptianAmerica",
-//     "Munnabai",
-//     "Jeff",
-//     "AAK chandran"
-//     ];
-// const startWithA=friends.filter((friends)=>friends.startsWith("A"))
-// console.log("Friends name which is statring with letter A is "+ startWithA)
+//5. Find the friends names who has letter ‘a’ and return the list.
+// const friends = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+// const filterFriends=friends.filter(name=>name.includes("a"))
+// console.log("Friends name which are having with letter a is "+ filterFriends)
 
 // OUTPUT:
-// Friends name which is statring with letter A is AAK chandran
+// Friends name which are having with letter a is Mari,MaryJane,CaptianAmerica,Munnabai,AAK chandran
+
 
 //6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
 
