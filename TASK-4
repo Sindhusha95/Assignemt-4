@@ -13,7 +13,6 @@
 //   console.log(friends)
 
 //   OUTPUT:
-
 // ['Anusha', 'Mari', 'MaryJane', 'CaptianAmerica', 'Munnabai', 'Jeff', 'AAK chandran', 'Sindhusha']
 // 0: "Anusha"
 // 1: "Mari"
@@ -45,6 +44,20 @@
 // OUTPUT:
 // Mari,MaryJane,CaptianAmerica,Munnabai,Jeff,AAK chandran
 
+//5. 5. Find the friends names who has letter ‘a’ and return the list.
+// const friends = [
+//     "Mari",
+//     "MaryJane",
+//     "CaptianAmerica",
+//     "Munnabai",
+//     "Jeff",
+//     "AAK chandran"
+//     ];
+// const startWithA=friends.filter((friends)=>friends.startsWith("A"))
+// console.log("Friends name which is statring with letter A is "+ startWithA)
+
+// OUTPUT:
+// Friends name which is statring with letter A is AAK chandran
 
 //6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
 
@@ -61,7 +74,6 @@
 // console.log("All friends names average = " + " " + average) 
 
 // OUTPUT:
-
 // Number of friends in friends array =  6
 // Length of each Friend Name individually =  4
 // Length of each Friend Name individually =  8
@@ -73,8 +85,19 @@
 // All friends names average =  8.333333333333334
 
 //7. Find the names and return the list starting with letter M.
+// const friends = [
+//     "Mari",
+//     "MaryJane",
+//     "CaptianAmerica",
+//     "Munnabai",
+//     "Jeff",
+//     "AAK chandran"
+//     ];
+// const startWithM=friends.filter((friends)=>friends.startsWith("M"))
+// console.log("Friends name which are statring with letter M is "+ startWithM)
 
-
+// OUTPUT:
+// Friends name which are statring with letter M is Mari,MaryJane,Munnabai
 
 //8. Find the name with max characters and return the name.
 
@@ -92,3 +115,20 @@
 
 // OUTPUT:
 // Name with Max Characters in the array is CaptianAmericaIts length is  14
+
+//9.Find the name with min characters and return the name.
+
+// let friends=[ "Mari", "MaryJane", "CaptianAmerica", "Munnabai", "Jeff", "AAK chandran"];
+// var min=Math.min.apply(Math, friends.map(function(str){
+//     return str.length
+// }))
+// console.log("Length of the name in an array with min characters is "+ min)
+// for(i=0;i<friends.length;i++){
+//     if(friends[i].length==min){
+//     console.log("Friends name with min characters is "+friends[i])
+// }}
+
+// OUTPUT:
+// Length of the name in an array with min characters is 4
+// Friends name with min characters is Mari
+// Friends name with min characters is Jeff
