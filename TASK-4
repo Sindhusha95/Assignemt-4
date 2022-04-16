@@ -126,3 +126,56 @@
 // Length of the name in an array with min characters is 4
 // Friends name with min characters is Mari
 // Friends name with min characters is Jeff
+
+
+//OBJECTS:
+
+//1.What the OUTPUT:
+
+myobject = {one:1,"11":1,"name":"arun"}
+console.log(myobject[11]); 
+console.log(myobject.name);
+
+OUTPUT:
+1
+arun
+
+//2.What the output:
+
+// myobject = {1:'one','11':1,'name':'arun'}
+// myobject.ten="ten";
+// console.log(myobject);
+
+// OUTPUT:
+// { '1': 'one', '11': 1, name: 'arun', ten: 'ten' }
+
+//3.Write out an object literal to represent the data below.
+// Guvi, Geek, 6, IIT-M RP,Chennai.
+
+// var address={
+//     Name:'Guvi',
+//     Div:'Geek',
+//     Sector:6,
+//     College:"IIT-M",
+//     Area:"RP",
+//     State:"Chennai"
+// }
+// console.log("Guvi Address is " + address.Name,address.Div, address.Sector, address.College,address.Area,address.State)
+
+// OUTPUT:
+// Guvi Address is Guvi Geek 6 IIT-M RP Chennai
+
+
+//4.How would you represent the following data using a combination of object literals and arrays?
+
+// var address={
+//     Name:['Guvi', 'Amazon','Google', 'Tesla'],
+//     Div:['Geek', 'Inc', 'Alphabet', 'Inc'],
+//     Sector:[6,31,34,32],
+//     Area:['IIT-M RP', 'SP Inforcity','Amphithearer Parkway','333 Santana Row'],
+//     City:['Chennai','Chennai','Montain View','San Jose'] 
+// }
+// console.log(address.Name[2], address.Div[2], address.Sector[2], address.Area[2], address.City[2])
+
+// OUTPUT:
+// Google Alphabet 34 Amphithearer Parkway Montain View
